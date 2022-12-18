@@ -7,13 +7,6 @@ font_add_google("Libre Franklin", "Franklin")
 showtext_auto()
 
 dat <- read.csv("../data/data.csv", colClasses = "character")
-# 
-# dat <- dat %>%
-#   select(-user.Description, -is_quote_status, -quoted_status_text, -quoted_status_id_str, -quoted_actor_name, -quoted_actor_screen_name, -quoted_actor_id, 
-#   -in_reply_to_screen_name, -in_reply_to_status_id_str, -in_reply_to_user_id_str, -is_retweet, -retweet_actor_name, -retweet_actor_screen_name, -retweet_actor_id, 
-#   -retweet_tweet_id, -retweet_text, -type, -gender, -full_name, -gbm_prediction)
-# 
-# write.csv(dat, file = "../data/data.csv", row.names = F)
 
 
 ## create figure 3
